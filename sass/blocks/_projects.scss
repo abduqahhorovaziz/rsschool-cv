@@ -1,0 +1,10 @@
+.projects {
+    padding: 0 48px 48px 48px;
+}
+.project__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 25px;
+}

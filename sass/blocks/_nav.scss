@@ -1,0 +1,21 @@
+.nav__list {
+    display: flex;
+}
+
+.nav__item+.nav__item {
+    margin-left: 20px;
+}
+
+.nav__link {
+    font-size: 20px;
+    line-height: 2;
+
+    i {
+        color: $socials-color;
+        transition: color .2s ease-in;
+
+        &:hover{
+            color: $socials-hover-color;
+        }
+    }    
+}

@@ -1,0 +1,11 @@
+.language {
+    padding: 0 48px 48px 48px;
+
+    .card:nth-child(2){
+        margin-bottom: 32px;
+
+        .card__date{
+            margin-bottom: 0;
+        }
+    }
+}

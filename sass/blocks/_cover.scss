@@ -1,0 +1,68 @@
+.resume__cover {
+    column-gap: 30px;
+
+    height: 265px;
+    padding: 48px;
+    border-radius: 10px 10px 0 0;
+    background-image: url('./../../img/cover-bg.jpg');
+}
+
+.cover__avatar {
+    position: relative;
+    margin-right: 70px;
+
+    width: 200px;
+    height: 200px;
+
+    img {
+        position: absolute;
+        top: 20px;
+        left: 0;
+
+        box-sizing: content-box;
+        border: 9px solid #fff;
+        filter: grayscale(20%);
+        transition: transform .2s ease-in;
+
+        &:hover {
+            transform: translateY(-5px);
+        }
+    }
+}
+
+.cover__content {
+    color: #fff;
+
+    p {
+        margin-bottom: 16px;
+        line-height: 1.5;
+    }
+}
+
+.cover__title {
+    font-family: 'Poppins', sans-serif;
+    margin: 16px 0;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+.cover__btn {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 8px 24px;
+
+    border: 1px solid $button-bg-color;
+    border-radius: 50px;
+    background-color: $button-bg-color;
+
+    font-size: 15px;
+    line-height: 1.5;
+    color: $title-color !important;
+
+    transition: transform .18s ease-in;
+
+    &:hover{
+        transform: translateY(-2px);
+    }
+}

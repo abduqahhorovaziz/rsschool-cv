@@ -14,6 +14,7 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 * Sass
 * Bootstrap
 * JavaScript (Basic skills)
+* Git/Github
 * Webflow
 * Wordpress
 ## Code example

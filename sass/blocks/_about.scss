@@ -1,0 +1,45 @@
+.about {
+    padding: 56px 48px 0 48px;
+    background-color: #fff;
+}
+
+.about__row {
+    justify-content: space-between;
+    align-items: flex-end;
+    column-gap: 30px;
+}
+
+.about__text {
+    line-height: 1.5;
+
+    p {
+        max-width: 458px;
+    }
+}
+
+.about__info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    line-height: 1.5;
+}
+
+.info__row {
+    display: flex;
+    width: 100%;
+}
+
+.info__row:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.info__left {
+    padding: 0 12px;
+    width: 35%;
+}
+
+.info__right {
+    padding: 0 12px;
+    width: 65%;
+    color: $light-gray-color;
+}

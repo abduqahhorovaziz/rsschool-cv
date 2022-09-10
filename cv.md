@@ -10,6 +10,7 @@ I am reliable and dependable and often seek new responsibilities within a wide r
 ## Skills
 * HTML
 * CSS
+* BEM
 * Sass
 * Bootstrap
 * JavaScript (Basic skills)
